@@ -1,0 +1,25 @@
+{
+  "name": "excurzion",
+  "description": "Project for Travels",
+  "main": "Gulpfile.js",
+  "authors": [
+    "Rubén Casillas <rubencasillas05@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "gulp"
+  ],
+  "homepage": "https://github.com/Rubash00/excurzion",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

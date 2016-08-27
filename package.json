@@ -1,0 +1,23 @@
+{
+  "name": "excurzion",
+  "version": "0.0.1",
+  "description": "Project for Travels",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rubash00/excurzion.git"
+  },
+  "keywords": [
+    "node",
+    "gulp"
+  ],
+  "author": "Rubén Casillas <rubencasillas05@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rubash00/excurzion/issues"
+  },
+  "homepage": "https://github.com/Rubash00/excurzion#readme"
+}
