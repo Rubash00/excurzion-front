@@ -1,0 +1,80 @@
+.navbar-default {
+	width: 100%;
+	border-color: transparent;
+	background-color: $main-color;
+	margin-bottom: 0;
+	height: 90px;
+	font-family: $titles-font, Verdana, Arial;
+}
+
+.navbar-header, 
+.navbar-brand {
+	height: 90px;
+}
+
+.navbar-header {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    width: 20%;
+}
+
+.navbar-default .navbar-collapse {
+	display: inline-block !important;
+    vertical-align: middle;
+    width: 79%;
+    float: none;
+}
+
+.navbar-brand img {
+	width: 22rem;
+}
+
+.menu--container {
+	height: 90px;
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    .navbar-nav {
+    	text-align: center;
+	    width: 90%;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    margin: 0 auto;
+    	li {
+    		display: inline-block;
+		    vertical-align: middle;
+		    height: 90px;
+		    width: auto;
+		    margin: 0 auto;
+		    a {
+		    	height: 90px;
+			    padding: 3.5rem 1rem;
+			    width: 10rem;
+			    font-size: 1em;
+		    }
+    	}
+    }
+}
+
+.navbar-nav.navbar-right {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    height: 90px;
+    text-align: center;
+    li {
+    	display: inline-block;
+	    vertical-align: middle;
+	    height: 90px;
+	    width: auto;
+	    margin: 0 auto;
+	    a {
+	    	height: 90px;
+			padding: 3.5rem 1rem;
+	    }	
+    }
+}	

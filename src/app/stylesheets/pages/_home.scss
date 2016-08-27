@@ -1,0 +1,183 @@
+.jumbotron {
+	height: 100vh;
+	width: 100vw;
+	padding-top: 0;
+	position: relative;
+}
+
+.item {
+    background: url("../app/assets/a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.item-1 {
+	background: url("../app/assets/a.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.item-2 {
+	background: url("../app/assets/b.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.item-3 {
+	background: url("../app/assets/c.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.item-4 {
+	background: url("../app/assets/d.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron--content {
+	position: absolute; 
+	margin: 0 auto;
+	width: 60vw;
+	height: 60vh;
+	top: 20vh;
+	left: 0;
+	right: 0;
+}
+
+.fit-a {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 35px;
+    z-index: 20;
+    width: 84px;
+    height: 27px;
+    margin: 0 0 0 -42px;
+    background: url(../app/assets/sprite-a.png) -192px -201px no-repeat;
+    opacity: 0;
+    cursor: pointer;
+}
+
+h1.jumbotron--title {
+	font-family: $text-font, Arial, Verdana;
+	color: #fff;
+	text-align: center;
+	font-size: 5.5rem;
+}
+
+.jumbotron--call2action {
+	padding: 4rem 0;
+    height: 16rem;
+    margin: 6rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2.jumbotron--subtitle {
+	font-family: $titles-font, Verdana, Arial;
+	color: #fff;
+	font-size: 1.8rem;
+}
+
+.jumbotron--btn {
+	display: inline-block;
+	padding: 1rem 3.8rem;
+	border: 1px solid #fff;
+	margin: .8rem 0;
+}
+
+.jumbotron--btn__guides {
+	background: $third-color;
+	display: inline-block;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	&:hover {
+		background: darken($third-color, 10%);
+		-webkit-transition: all .3s ease-in;
+		-moz-transition: all .3s ease-in;
+		transition: all .3s ease-in;
+	}
+
+}
+
+.jumbotron--btn__traveler {
+	background: rgba(0,0,0,.3);
+	display: inline-block;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	&:hover {
+		background: darken(rgba(0,0,0,.3), 10%);
+		-webkit-transition: all .3s ease-in;
+		-moz-transition: all .3s ease-in;
+		transition: all .3s ease-in;
+	}
+}
+
+.excurzion--description__title {
+	font-family: $text-font, Verdana, Arial;
+	color: $secondary-color;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 4rem;
+	span {
+		color: $third-color;
+	}
+}
+
+.excurzion--description__brand {
+	padding: 2rem 0;
+	text-align: center;
+	width: 4rem;
+    margin: 0 auto;
+	&::after,
+	&::before {
+		display: block;
+	    position: absolute;
+	    content: '';
+	    width: 6rem;
+	    height: .1rem;
+	    background: $third-color;
+	    left: 318px;
+	    top: 11.5rem;
+	}
+	&::after {
+		left: 452px;	
+	}
+	img {
+		margin: 0 auto;
+		display: inline-block;
+	}
+}
+
+article.excurzion--description__content {
+	color: lighten(#000, 40%);
+	line-height: 1.5;
+	text-align: center;
+	width: 80rem;
+	margin: 0 auto;
+	font-family: $titles-font, Arial, Verdana;
+	font-size: 1.7rem;
+}
+
+.excurzion--grid {
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+    margin: 3rem 0;
+	.col-excurzion__6 {
+		display: inline-block;
+	    vertical-align: middle;
+	    height: 48rem;
+	    background: $secondary-color;
+	    width: 49.84%;
+	    margin: .2rem 0;
+
+	}
+}
